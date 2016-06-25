@@ -49,7 +49,7 @@ var markerArr = [{
     title: "仰新网络",
     content: "嘉兴市南湖区秦逸路56号华隆广场2幢7楼",
     point: "120.764887|30.73447",
-    isOpen: 0,
+    isOpen: 1,
     icon: { w: 23, h: 25, l: 46, t: 21, x: 9, lb: 12 }
 }];
 
