@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>仰新网络</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body class="yx-home">
+    <div class="header">
+        <div class="container">
+            <a href="index.html" title="仰新网络" class="logo">
+                <span>
+                    仰新网络
+                </span>
+            </a>
+            <ul id="J_nav" class="nav">
+                <li><a class="active" href="index.html"><span>首页</span></a></li>
+                <li><a href="about.html"><span>关于我们</span></a></li>
+                <li><a href="career.html"><span>招贤纳士</span></a></li>
+                <li><a href="contact.html"><span>联系我们</span></a></li>
+            </ul>
+            <a id="J_navTrigger" class="nav-trigger" href="#">
+                <span></span>
+            </a>
+        </div>
+    </div>
+
+    <div id="J_swipe" class="yx-banner swiper-container">
+        <div class="swiper-wrapper">
+            <div class="banner-yx swiper-slide">
+                <div>
+                    <h1>仰新网络，品牌建设专家</h1>
+                    <p>我们致力于线上品牌建设与传播，助力传统企业转型升级，跨越互联网，融入大数据时代。<br />立足于全网全渠道推广，深入研究社交媒体经营，挖掘社群、粉丝经济，布局垂直流量建设，为国内B2C电商、跨境电商提供可靠的第三方服务。</p>
+                    <a class="yx-btn blue" href="about.html">了解更多</a>
+                    <a class="yx-btn orange" href="career.html">加入我们</a>
+                </div>
+            </div>
+            <div class="banner-junlan swiper-slide">
+                <img src="img/title-banner.png" alt="桔年" />
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="js/base.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            direction: 'vertical',
+            slidesPerView: 1,
+            paginationClickable: true,
+            mousewheelControl: true
+        });
+    </script>
+</body>
+</html>

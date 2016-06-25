@@ -1,0 +1,33 @@
+{
+  "name": "yangxinnet",
+  "version": "1.0.0",
+  "description": "YangXinNet Web",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honghui-qiao/YangXinNet.git"
+  },
+  "keywords": [
+    "Web"
+  ],
+  "author": "Michael Qiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honghui-qiao/YangXinNet/issues"
+  },
+  "homepage": "https://github.com/honghui-qiao/YangXinNet",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "rimraf": "^2.5.2",
+    "run-sequence": "^1.2.1"
+  }
+}
