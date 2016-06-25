@@ -1,32 +1,4 @@
-﻿/*
-@base-font-size: 16px;
-@base-width: 750px;
-
-@rem: unit(1/@base-font-size, rem);
-@vmin: unit(100/@base-width, vmin);
-
-@key, @value) when not (@key = font-size) and (ispixel(@value)) {
-    @{key}: unit(@value * @rem,rem);
-    @{key}: unit(round(@value * @vmin, 1), vmin);
-}
-
-@key, @value) when (@key = font-size) and (ispixel(@value)) {
-    @{key}: unit(@value *@rem,rem);
-}
-
-@key, @top, @right, @bottom, @left) when not (@key = border) {
-    @{key}: unit(@top * @rem, rem) unit(@right * @rem, rem) unit(@bottom * @rem, rem) unit(@left * @rem, rem);
-    @{key}: unit(@top * @vmin, vmin) unit(@right * @vmin, vmin) unit(@bottom * @vmin, vmin) unit(@left * @vmin, vmin);
-}
-
-@key,@top: 0, @right: 0, @bottom: 0, @left: 0) when (@key = border) {
-    border-top-width: unit(@top * @rem,rem);
-    border-right-width: unit(@right * @rem,rem);
-    border-bottom-width: unit(@bottom * @rem,rem);
-    border-left-width: unit(@left * @rem,rem);
-}*/
-
-@bg-blue: #2d90d2;
+﻿@bg-blue: #2d90d2;
 @bg-orange: #f17b0d;
 @bg-light-gray: #fafafa;
 
@@ -481,7 +453,6 @@ a {
 
         .yx-btn {
             width: 50%;
-            font-size: 14px;
             display: block;
             margin: 0 auto 15px;
             opacity: .8;
